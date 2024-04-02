@@ -1,0 +1,50 @@
+.scrollableBlock {
+    position: relative;
+    overflow: hidden;
+}
+
+.scrollableContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Для плавной прокрутки на iOS */
+}
+.scrollableContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollableContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    outline: none;
+    z-index: 1;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: none;
+    right: 0;
+    outline: none;
+}
+.img {
+    transform: translateY(-2px);
+    width: 100%;
+    height: auto;
+}

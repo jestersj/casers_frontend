@@ -1,0 +1,51 @@
+.card {
+    background: white;
+    border-radius: 50px;
+    height: 600px;
+    width: 385px;
+}
+.img_block {
+    height: 50%;
+    width: 100%;
+}
+
+.img {
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tag_block {
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    border-radius: 50px;
+    border: 2px solid var(--pink);
+    padding: 10px;
+}
+
+.text_cont {
+    flex: 1;
+}
+
+.text_cont h5 {
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+}
+
+.text_cont span {
+    color: #59595980;
+    font-size: 0.8rem;
+}

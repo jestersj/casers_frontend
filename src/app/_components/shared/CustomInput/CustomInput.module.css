@@ -1,0 +1,26 @@
+.cont {
+    position: relative;
+
+}
+
+.icon {
+    position: absolute;
+    height: 20px;
+    width: auto;
+    top: 23px;
+    left: 15px;
+}
+
+.input {
+    border-radius: 50px;
+    background: var(--gray);
+    border: 2px solid transparent;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 20px 20px 20px 50px;
+    width: 100%;
+}
+
+.input:focus {
+    border: 2px solid var(--black);
+}

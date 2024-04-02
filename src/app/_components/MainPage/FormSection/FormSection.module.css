@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row h2 {
+    font-size: 3.5rem;
+}
+
+.form {
+    width: 50%;
+    border-radius: 50px;
+    background: white;
+    padding: 45px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
