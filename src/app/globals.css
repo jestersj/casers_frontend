@@ -7,6 +7,8 @@
     --orange-hover: #FFC595;
     --orange-active: #FF7605;
 
+    --light-orange: #FFF1EF;
+
     --multicolor: linear-gradient(90deg, rgba(242,59,103,1) 0%, rgba(253,175,106,1) 100%);
     --multicolor-hover: var(--orange);
     --multicolor-active: var(--pink);
@@ -33,6 +35,14 @@ html {
 body {
     background: linear-gradient(180deg, #FFFFFF 11.57%, #FEFCF9 26.73%, #FCF3E9 49.15%, #FFF0EF 89.35%);
     min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+main {
+    padding-top: 150px;
+    flex: 1;
 }
 
 button {

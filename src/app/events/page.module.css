@@ -1,0 +1,26 @@
+.h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.h1 span {
+    background: var(--multicolor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.filter_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p {
+    font-size: 2rem;
+}
+
+.cards_cont {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

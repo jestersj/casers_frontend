@@ -16,8 +16,8 @@ const Navbar = () => {
 
             <div className={s.links_block}>
                 <Link href={'/'}>О нас</Link>
-                <Link href={'/'}>Мероприятия</Link>
-                <Link href={'/'}>Новости</Link>
+                <Link href={'/events'}>Мероприятия</Link>
+                <Link href={'/news'}>Новости</Link>
             </div>
 
             <div className={s.col}>

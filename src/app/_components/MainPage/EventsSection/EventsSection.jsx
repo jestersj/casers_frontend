@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './EventsSection.module.css'
-import filter from './filter.svg'
+import filter from '../../../_assets/filter.svg'
 import Image from "next/image";
 import EventSmCard from "@/app/_components/MainPage/EventSmCard/EventSmCard";
 import ScrollableBlock from "@/app/_components/shared/ScrollableBlock/ScrollableBlock";
