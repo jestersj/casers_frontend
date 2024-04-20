@@ -6,7 +6,7 @@ import Image from "next/image";
 const WhoWeAreSection = () => {
     return (
         <section className={'custom_cont'}>
-            <div className={s.row}>
+            <div className={s.row} id={'whoWeAre'}>
                 <div className={s.col}>
                     <h2>Мы - команда Casers</h2>
                     <p>Проводим кейс-чемпионаты, мастер-классы, конкурсы и хакатоны с ведущими мировыми компаниями.</p>

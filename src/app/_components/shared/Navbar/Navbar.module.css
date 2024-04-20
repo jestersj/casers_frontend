@@ -13,18 +13,24 @@
     align-items: center;
 
 
-    -webkit-box-shadow: 0 0 65px 11px rgba(87,10,66,0.24);
-    -moz-box-shadow: 0 0 65px 11px rgba(87,10,66,0.24);
-    box-shadow: 0 0 65px 11px rgba(87,10,66,0.24);
+    -webkit-box-shadow: 0 0 65px 11px rgba(87, 10, 66, 0.24);
+    -moz-box-shadow: 0 0 65px 11px rgba(87, 10, 66, 0.24);
+    box-shadow: 0 0 65px 11px rgba(87, 10, 66, 0.24);
 }
 
 .col {
     width: 33%;
 }
+
 .btn_cont {
     display: flex;
     justify-content: flex-end;
 }
+
+.btn_cont .btn {
+    width: 130px;
+}
+
 .logo {
     height: 40px;
     width: auto;

@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className={s.row}>
                     <div className={s.col}>
                         <Link href={'/'} className={s.header}>Главная</Link>
-                        <Link href={'/'}>Кто мы</Link>
+                        <Link href={'/#whoWeAre'}>Кто мы</Link>
                         <Link href={'/events'}>Мероприятия</Link>
                         <Link href={'/news'}>Новости</Link>
                         <Link href={'/'}>Личный кабинет</Link>

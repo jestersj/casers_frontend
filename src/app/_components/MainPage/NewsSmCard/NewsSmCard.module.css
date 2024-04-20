@@ -3,6 +3,12 @@
     border-radius: 50px;
     height: 600px;
     width: 385px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    -webkit-box-shadow: 0 10px 39px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 10px 39px -25px rgba(0,0,0,0.75);
+    box-shadow: 0 10px 39px -25px rgba(0,0,0,0.75);
 }
 .img_block {
     height: 50%;

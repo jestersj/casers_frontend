@@ -2,6 +2,7 @@ import React from 'react';
 import s from "./page.module.css";
 import Image from "next/image";
 import filter from "@/app/_assets/filter.svg";
+import NewsBlock from "@/app/_components/shared/NewsBlock/NewsBlock";
 
 const Page = () => {
     return (
@@ -12,6 +13,7 @@ const Page = () => {
                     <Image src={filter} alt={'фильтр'}/>
                 </button>
             </div>
+            <NewsBlock background={true}/>
         </div>
     );
 };

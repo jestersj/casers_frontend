@@ -37,7 +37,6 @@ body {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    gap: 70px;
 }
 
 main {
@@ -109,6 +108,7 @@ button {
     font-size: 1.2rem;
     padding: 20px;
     transition: 0.3s;
+    width: 100%;
 }
 
 .outline_btn:hover {
@@ -145,4 +145,14 @@ button {
     font-size: 1.2rem;
     border-radius: 50px;
     outline: none;
+}
+
+#whoWeAre {
+    padding-top: 120px;
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 12px;
+    }
 }
